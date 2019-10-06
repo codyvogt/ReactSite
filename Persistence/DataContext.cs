@@ -1,6 +1,5 @@
 ﻿using Domain;
 using Microsoft.EntityFrameworkCore;
-using System;
 
 
 namespace Persistence
@@ -11,7 +10,6 @@ namespace Persistence
         {
             
         }
-        public DbSet<Activity> Values { get; set; }
         public DbSet<Activity> Activities { get; set; }
     }
 }
